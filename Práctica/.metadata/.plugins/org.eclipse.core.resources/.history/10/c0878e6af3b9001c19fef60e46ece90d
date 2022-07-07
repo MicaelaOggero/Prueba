@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Persona {
+	private String nombre;
+	private int edad;
+	private String factor;
+	
+	
+	Scanner teclado =new Scanner (System.in);
+	
+	public String getNombre() {
+		return(nombre);
+	}
+	
+	public void setNombre() {
+		nombre=teclado.nextLine();
+		this.nombre=nombre;
+	}
+	
+	public String getFactor() {
+		return(factor);
+	}
+	
+	public void setFactor() {
+		this.factor=factor;
+	}
+	
+	public int getEdad() {
+		return(edad);
+	}
+	
+	public void setEdad() {
+		this.edad=edad;
+	}
+	
+	public String toString() {
+		return "Nombre: "+nombre+"\n"+"Edad: "+edad+"\n"+"Factor: "+factor; 
+	}
+	
+
+}

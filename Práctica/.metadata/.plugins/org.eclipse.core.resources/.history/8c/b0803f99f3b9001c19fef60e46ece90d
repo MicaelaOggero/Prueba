@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+	
+	public static void main (String[] ar) {
+		
+		List<Persona> list_persona = new ArrayList<>();
+		Persona persona1=new Persona();
+		System.out.print("Ingrese el nombre: ");
+		persona1.setNombre();
+		persona1.toString();
+		
+	}
+}
