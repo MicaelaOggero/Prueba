@@ -1,0 +1,72 @@
+/*Comentario*/
+
+/* La estructura de la sintaxis de css es la siguiente: 
+
+1- selector (hay varios tipos) que nos va a permitir decirle a nuestro programa, a que elementos del html tiene que aplicarle el estilo
+
+2- abrir {} para contener todos los estilos que queremos aplicarle al elemento html
+
+3- dentro de las llaves {} vamos a escribir una propiedad y un valor. Ejemplo -> color: blank
+
+*/
+
+/* Formas de darle estilo */
+
+/*Etiqueta*/
+header {
+    background-color: blue; /*El nombre en ingles, RGB, RGBA, HSL, HEXADECIMAL*/
+}
+
+/* Clase */
+
+/* .home {
+    color: yellow;
+} */
+
+/* ID | no se puede reutilizar a diferencia de las clases */
+
+#nosotros{
+    background-color: aqua;
+}
+
+/*CSS significa hoja de estilos en cascada*/
+
+/* header nav ul li a {
+    color: yellow;
+}
+
+h1, footer p{
+    font-size: 26px;
+}
+
+h1, .home, #nosotros{
+    color: red;
+} */
+
+/*Estilos varios*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Unidades de medida | unidades absolutas y unidades relativas */
+
+/*Absolutas -> pixel*/
+
+.texto{
+    font-size: 30px;
+    /*
+    px se utiliza mucho en textos, encabezados
+
+    se va a usar cuando necesiten que un elemento mantega su tamaño*/
+}
+
+/*Relativas (flexibles) | Nos ayuda con el diseño responsive (adapte a distintos tipos de dispositivos) -> %, em, rem, ex*/
+
+.img{
+    width: 100%;
+    /* % se utiliza mas en width y height*/
+}
+
+/* unidades del viewport | ventana del navegador -> vh (altura), vw (ancho) */
